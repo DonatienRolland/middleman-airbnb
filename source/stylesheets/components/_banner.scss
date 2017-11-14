@@ -20,5 +20,10 @@
   }
 }
 
+.small-banner {
+  height: 50vh;
+  background-position: center;
+  background-size: cover !important;
+}
 
   /* if you have a 70px navbar => height: calc(100vh - 70px); */

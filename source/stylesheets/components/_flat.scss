@@ -1,0 +1,48 @@
+.flat_desc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+.flat_name{
+  flex: 0 0 20%;
+  font-weight: normal;
+  font-size: 14px;
+  color: #777777;
+  text-align: center;
+}
+
+.flat_info{
+  flex: 1 0 auto;
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    color: #777777;
+  }
+  h4 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+}
+
+.medium_avatar {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.flat_form {
+  flex: 0 0 40%;
+  background-color: $orange;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.check {
+  display: flex;
+}
+.margin-left {
+  margin-left: 10px;
+}
